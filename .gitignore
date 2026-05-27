@@ -1,0 +1,24 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[S]ettings/
+*.csproj
+*.sln
+*.unityproj
+*.booproj
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Build
+Build/
+WebGLBuilds/
+
+# OS
+.DS_Store
+Thumbs.db

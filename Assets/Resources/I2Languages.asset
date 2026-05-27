@@ -1,0 +1,723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 0
+    mTerms:
+    - Term: 1 Target Remains
+      TermType: 0
+      Description: 
+      Languages:
+      - "1 \u0426\u0435\u043B\u044C \u041E\u0441\u0442\u0430\u043B\u0430\u0441\u044C"
+      - 1 Target Remains
+      Flags: 0000
+      Languages_Touch: []
+    - Term: 1-100 Levels
+      TermType: 0
+      Description: 
+      Languages:
+      - "1-100 \u0423\u0440\u043E\u0432\u043D\u0438"
+      - 1-100 Levels
+      Flags: 0000
+      Languages_Touch: []
+    - Term: 20 off
+      TermType: 0
+      Description: 
+      Languages:
+      - -0.2
+      - 20% off
+      Flags: 0000
+      Languages_Touch: []
+    - Term: 65 off
+      TermType: 0
+      Description: 
+      Languages:
+      - -0.65
+      - 65% off
+      Flags: 0000
+      Languages_Touch: []
+    - Term: 80 off
+      TermType: 0
+      Description: 
+      Languages:
+      - -0.8
+      - 80% off
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Achieve the Goal!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u043E\u0441\u0442\u0438\u0433\u043D\u0438\u0442\u0435 \u0446\u0435\u043B\u0435\u0439!"
+      - Achieve the Goal!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Best Value
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041B\u0443\u0447\u0448\u0435\u0435"
+      - 'Best
+
+        Value'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Booster Pack
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0430\u043A\u0435\u0442 \u0431\u0443\u0441\u0442\u0435\u0440\u043E\u0432"
+      - Booster Pack
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Bring the Crowns down to the bottom of the board.
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u043F\u0443\u0441\u0442\u0438\u0442\u0435 \u043A\u043E\u0440\u043E\u043D\u044B
+        \u043D\u0430 \u0434\u043D\u043E \u0434\u043E\u0441\u043A\u0438."
+      - Bring the Crowns down to the bottom of the board.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Christmas Bomb Pack
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0430\u043A\u0435\u0442 \u0420\u043E\u0436\u0434\u0435\u0441\u0442\u0432\u0435\u043D\u0441\u043A\u0430\u044F
+        \u0411\u043E\u043C\u0431\u0430"
+      - Christmas Bomb Pack
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Claim
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C"
+      - Claim
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Clear!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043E\u0442\u043E\u0432\u043E!"
+      - Clear!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Close
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0417\u0430\u043A\u0440\u044B\u0442\u044C"
+      - Close
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Coins Store
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u041C\u043E\u043D\u0435\u0442"
+      - Coins Store
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Do you really want to quit?
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+        \u0445\u043E\u0442\u0438\u0442\u0435 \u0432\u044B\u0439\u0442\u0438?"
+      - Do you really want to quit?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.1
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.1"
+      - Episode.1
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.10
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.10"
+      - Episode.10
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.11
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.11"
+      - Episode.11
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.12
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.12"
+      - Episode.12
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.13
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.13"
+      - Episode.13
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.14
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.14"
+      - Episode.14
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.15
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.15"
+      - Episode.15
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.16
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.16"
+      - Episode.16
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.17
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.17"
+      - Episode.17
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.18
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.18"
+      - Episode.18
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.19
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.19"
+      - Episode.19
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.2
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.2"
+      - Episode.2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.20
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.20"
+      - Episode.20
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.21
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.21"
+      - Episode.21
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.22
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.22"
+      - Episode.22
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.23
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.23"
+      - Episode.23
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.24
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.24"
+      - Episode.24
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.25
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.25"
+      - Episode.25
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.26
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.26"
+      - Episode.26
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.27
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.27"
+      - Episode.27
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.28
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.28"
+      - Episode.28
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.29
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.29"
+      - Episode.29
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.3
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.3"
+      - Episode.3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.30
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.30"
+      - Episode.30
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.31
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.31"
+      - Episode.31
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.32
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.32"
+      - Episode.32
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.33
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.33"
+      - Episode.33
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.34
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0435\u0440\u0438\u044F.34"
+      - Episode.34
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.35
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.35"
+      - Episode.35
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.4
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.4"
+      - Episode.4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.5
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.5"
+      - Episode.5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.6
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.6"
+      - Episode.6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.7
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.7"
+      - Episode.7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.8
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.8"
+      - Episode.8
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Episode.9
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043F\u0438\u0437\u043E\u0434.9"
+      - Episode.9
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Find the Holy Grail behind the Tiles!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0430\u0439\u0434\u0438\u0442\u0435 \u0421\u0432\u044F\u0442\u043E\u0439
+        \u0413\u0440\u0430\u0430\u043B\u044C \u0437\u0430 \u043F\u043B\u0438\u0442\u043A\u0430\u043C\u0438!"
+      - Find the Holy Grail behind the Tiles!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GOALS
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0426\u0435\u043B\u0438"
+      - Goals
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Hammer store
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u0431\u0443\u0441\u0442\u0435\u0440\u043E\u0432"
+      - Hammer store
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Keep Playing!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0418\u0433\u0440\u0430\u0442\u044C!"
+      - Keep Playing!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Level
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+      - Level
+      Flags: 0000
+      Languages_Touch: []
+    - Term: MISSION
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0438\u0441\u0441\u0438\u044F"
+      - Mission
+      Flags: 0000
+      Languages_Touch: []
+    - Term: MORE!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u043E\u043B\u0435\u0435!"
+      - More!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: MOVE
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0425\u043E\u0434\u044B"
+      - Move
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Match the Gems & Find the Silvers!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043E\u043F\u043E\u0441\u0442\u0430\u0432\u044C\u0442\u0435 \u0434\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u044B\u0435
+        \u043A\u0430\u043C\u043D\u0438 \u0438 \u043D\u0430\u0439\u0434\u0438\u0442\u0435
+        \u0441\u0435\u0440\u0435\u0431\u0440\u043E!"
+      - Match the Gems & Find the Silvers!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Match the Gems around the Blocks.
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043E\u043F\u043E\u0441\u0442\u0430\u0432\u044C\u0442\u0435 \u0434\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u044B\u0435
+        \u043A\u0430\u043C\u043D\u0438 \u0432\u043E\u043A\u0440\u0443\u0433 \u0431\u043B\u043E\u043A\u043E\u0432."
+      - Match the Gems around the Blocks.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Match the Gems on the Gold to spread it.
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0434\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u044B\u0435
+        \u043A\u0430\u043C\u043D\u0438 \u043D\u0430 \u0437\u043E\u043B\u043E\u0442\u0435,
+        \u0447\u0442\u043E\u0431\u044B \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0438\u0442\u044C
+        \u0435\u0433\u043E."
+      - Match the Gems on the Gold to spread it.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Match the Gems on the Tile.
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0434\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u044B\u0435
+        \u043A\u0430\u043C\u043D\u0438 \u043D\u0430 \u043F\u043B\u0438\u0442\u043A\u0435."
+      - Match the Gems on the Tile.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Match the Gems within the Jail!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0434\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u044B\u0435
+        \u043A\u0430\u043C\u043D\u0438 \u0432 \u0442\u044E\u0440\u044C\u043C\u0435!"
+      - Match the Gems within the Jail!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Most Popular
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0430\u043C\u043E\u0435 \u041F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u043E\u0435"
+      - 'Most
+
+        Popular'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Next
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0430\u043B\u0435\u0435"
+      - Next
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Now Only
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0422\u043E\u043B\u044C\u043A\u043E \u0421\u0435\u0439\u0447\u0430\u0441"
+      - Now Only
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Out of MOVES
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0435\u0442 \u0425\u041E\u0414\u041E\u0412"
+      - Out of MOVES
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Play
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0418\u0433\u0440\u0430\u0442\u044C"
+      - Play
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Quit
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B\u0439\u0442\u0438"
+      - Quit
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Retry
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u044C"
+      - Retry
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Settings
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+      - Settings
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Starter pack
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0442\u0430\u0440\u0442\u043E\u0432\u044B\u0439 \u043F\u0430\u043A\u0435\u0442"
+      - Starter pack
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Try to match 3 same Gems!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u0441\u043E\u043F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C
+        3 \u043E\u0434\u0438\u043D\u0430\u043A\u043E\u0432\u044B\u0445 \u0434\u0440\u0430\u0433\u043E\u0446\u0435\u043D\u043D\u044B\u0445
+        \u043A\u0430\u043C\u043D\u044F!"
+      - Try to match 3 same Gems!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Worth 4.99
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0442\u043E\u0438\u0442 4,99"
+      - Worth 4.99
+      Flags: 0000
+      Languages_Touch: []
+    - Term: YAN
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042F\u041D"
+      - YAN
+      Flags: 0000
+      Languages_Touch: []
+    - Term: "\u0412\u044B \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+        \u0445\u043E\u0442\u0438\u0442\u0435 \u0432\u044B\u0439\u0442\u0438?"
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+        \u0445\u043E\u0442\u0438\u0442\u0435 \u0432\u044B\u0439\u0442\u0438?"
+      - Do you really want to quit?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: FREE SPIN
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0415\u0421\u041F\u041B\u0410\u0422\u041D\u041E"
+      - FREE SPIN
+      Flags: 0000
+      Languages_Touch: []
+    - Term: NO
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0415\u0422"
+      - NO
+      Flags: 0000
+      Languages_Touch: []
+    - Term: YES
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0410"
+      - YES
+      Flags: 0000
+      Languages_Touch: []
+    - Term: 1st Time Purchase ONLY!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0422\u041E\u041B\u042C\u041A\u041E \u041F\u0415\u0420\u0412\u0410\u042F
+        \u043F\u043E\u043A\u0443\u043F\u043A\u0430!"
+      - 1st Time Purchase ONLY!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: COIN STORE
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0410\u0413\u0410\u0417\u0418\u041D \u041C\u041E\u041D\u0415\u0422"
+      - COIN STORE
+      Flags: 0000
+      Languages_Touch: []
+    - Term: FREE
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0415\u0421\u041F\u041B\u0410\u0422\u041D\u041E"
+      - FREE
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: English
+      Code: en
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbzccU5-y2GSWbVWfNRgYkNkbqwYHu7tFrE8qCZEbgfyXGs3cry-uDTW3UprsqhW-LdtnQ/exec
+    Google_SpreadsheetKey: 1qvA54wCFZzuJr5YVwScm_AHB-QFhPbGT922kH_FCzJg
+    Google_SpreadsheetName: I2Loc Jewels Quest Assets/Scenes/FirstLoadScene.unity
+      LocalizationSource
+    Google_LastUpdatedVersion: 1684973724197
+    Google_Password: Ghhjj7358912
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

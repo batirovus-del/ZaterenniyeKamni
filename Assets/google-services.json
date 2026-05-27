@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "712045403365",
+    "project_id": "witch-gem-blast",
+    "storage_bucket": "witch-gem-blast.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712045403365:android:475da919977717630b480c",
+        "android_client_info": {
+          "package_name": "com.UnicornGaming.gemblast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712045403365-t7m9utvajt9kbc81lghshuf1vs3msnnl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.UnicornGaming.gemblast",
+            "certificate_hash": "7c10d84a803d8953513818408131dee97d8720ba"
+          }
+        },
+        {
+          "client_id": "712045403365-765gfv3ieh334683etic08c8j5imv2d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV-S3m9ydv8Adw08vXQpkQAlBBVhyG-Cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712045403365-765gfv3ieh334683etic08c8j5imv2d2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
