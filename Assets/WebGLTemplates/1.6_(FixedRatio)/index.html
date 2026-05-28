@@ -122,11 +122,12 @@
     </div>
     <div id="loading-cover" style="display:none;">
         <div id="unity-loading-bar">
-            <div id="unity-logo"><img src="logo.png"></div>
-            <div id="unity-progress-bar-empty" style="display: none;">
-                <div id="unity-progress-bar-full"></div>
+            <div id="brand-text">BBAGAMES</div>
+            <div id="progress-ring-container">
+                <div id="progress-ring"></div>
+                <div id="progress-text">0%</div>
             </div>
-            <div class="spinner"></div>
+            <div id="unity-logo" style="display:none;"><img src="logo.png"></div>
         </div>
     </div>
 
@@ -271,9 +272,8 @@
         const container = document.querySelector("#unity-container");
         const canvas = document.querySelector("#unity-canvas");
         const loadingCover = document.querySelector("#loading-cover");
-        const progressBarEmpty = document.querySelector("#unity-progress-bar-empty");
-        const progressBarFull = document.querySelector("#unity-progress-bar-full");
-        const spinner = document.querySelector('.spinner');
+        const progressRing = document.querySelector("#progress-ring");
+        const progressText = document.querySelector("#progress-text");
 
         const canFullscreen = (function () {
             for (const key of [
@@ -331,9 +331,9 @@
         script.onload = () => {
             StartUnityInstance = function () {
                 createUnityInstance(canvas, config, (progress) => {
-                    spinner.style.display = "none";
-                    progressBarEmpty.style.display = "";
-                    progressBarFull.style.width = `${100 * progress}%`;
+                    const pct = Math.round(100 * progress);
+                    progressRing.style.background = `conic-gradient(#ffd700 0% ${pct}%, rgba(255,255,255,0.15) ${pct}% 100%)`;
+                    progressText.textContent = `${pct}%`;
                 }).then((unityInstance) => {
                     myGameInstance = unityInstance;
                     loadingCover.style.display = "none";
@@ -346,7 +346,7 @@
         };
 
         function StartUnityInstance_IfUnloaded() {
-            if (spinner.style.display !== "none")
+            if (!myGameInstance)
                 StartUnityInstance();
         }
 

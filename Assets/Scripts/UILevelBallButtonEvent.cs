@@ -1,3 +1,4 @@
+//using UnityEditor.Hardware;
 using UnityEngine;
 using YG;
 
@@ -5,14 +6,15 @@ public class UILevelBallButtonEvent : MonoBehaviour
 {
 	public void OnPressLevelBallButton()
 	{
-        if (!YG2.nowAdsShow)
+        if (!YandexGame.nowAdsShow && YandexGame.timerShowAd >= YandexGame.Instance.infoYG.fullscreenAdInterval)
         {
-            YG2.InterstitialAdvShow();
+            YandexGame.FullscreenShow(null, onPressLevelBallButton);
         }
         else
         {
             onPressLevelBallButton();
         }
+        
 	}
 
     public void onPressLevelBallButton()

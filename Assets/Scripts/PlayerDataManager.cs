@@ -248,7 +248,7 @@ public class PlayerDataManager : MonoSingleton<PlayerDataManager>
 			lastLoginDateTime = Convert.ToDateTime(@string);
 		}
         SavesYG.SetString("LastLoginDateTime", DateTime.Now.ToString());
-		YG2.SaveProgress();
+		YandexGame.savesData.Save();
 		//PlayerPrefs.Save();
 	}
 
@@ -451,7 +451,7 @@ public class PlayerDataManager : MonoSingleton<PlayerDataManager>
 		ObscuredPrefs.Save();
 #else
         SavesYG.SetInt(KEY_COIN, Coin);
-		YG2.SaveProgress();
+		YandexGame.savesData.Save();
         //PlayerPrefs.Save();
 #endif
     }
@@ -478,7 +478,7 @@ public class PlayerDataManager : MonoSingleton<PlayerDataManager>
         {
             SavesYG.SetInt(KEY_HEADER_BOOSTER + i, BoosterCount[i]);
         }
-		YG2.SaveProgress();
+		YandexGame.savesData.Save();
         //PlayerPrefs.Save();
 #endif
     }
@@ -592,7 +592,7 @@ public class PlayerDataManager : MonoSingleton<PlayerDataManager>
         }
         SaveCurrentLevel();
 		//PlayerPrefs.Save();
-		YG2.SaveProgress();
+		YandexGame.savesData.Save();
 #endif
     }
 

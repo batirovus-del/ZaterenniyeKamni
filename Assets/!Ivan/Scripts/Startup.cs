@@ -7,10 +7,11 @@ public class Startup : MonoBehaviour
 {
     private IEnumerator Start()
     {
-        while (YG2.isSDKEnabled == false)
+        while (YandexGame.SDKEnabled == false)
             yield return null;
 
         Localization.InitTranslations();
+        YandexGame.savesData.LoadSave();
         SceneManager.LoadSceneAsync(1);
     }
 }

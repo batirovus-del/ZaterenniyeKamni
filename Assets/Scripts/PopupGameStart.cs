@@ -125,7 +125,7 @@ public class PopupGameStart : Popup, IAppEventAdWatchingFunnel
             if (LocalizationManager.CurrentLanguage == "English")
                 TextLevel.text = "Level " + level;
             else if (LocalizationManager.CurrentLanguage == "Russian")
-                TextLevel.text = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ " + level;
+                TextLevel.text = "Уровень " + level;
 
         }
 		if (!isHardLevel)
@@ -623,7 +623,7 @@ public class PopupGameStart : Popup, IAppEventAdWatchingFunnel
             if (LocalizationManager.CurrentLanguage == "English")
                 TextLevel.text = "Level " + level;
             else if (LocalizationManager.CurrentLanguage == "Russian")
-                TextLevel.text = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ " + level;            
+                TextLevel.text = "Уровень " + level;            
 		}
 		TextGoal.text = string.Empty;
 		TextScore.text = string.Empty;
@@ -857,9 +857,10 @@ public class PopupGameStart : Popup, IAppEventAdWatchingFunnel
 
 	public override void OnEventOK()
 	{
-        if (!YG2.nowAdsShow)
+        YandexAdManager.Instance.ShowInterstitial();
+        if (!YandexGame.nowAdsShow && YandexGame.timerShowAd >= YandexGame.Instance.infoYG.fullscreenAdInterval)
         {
-            YG2.InterstitialAdvShow();
+            YandexGame.FullscreenShow(null, eventOk);
         }
         else
         {
@@ -889,9 +890,9 @@ public class PopupGameStart : Popup, IAppEventAdWatchingFunnel
 
     public override void OnEventClose()
 	{
-        if (!YG2.nowAdsShow)
+        if (!YandexGame.nowAdsShow && YandexGame.timerShowAd >= YandexGame.Instance.infoYG.fullscreenAdInterval)
         {
-            YG2.InterstitialAdvShow();
+            YandexGame.FullscreenShow(null, onEventClose);
         }
         else
         {

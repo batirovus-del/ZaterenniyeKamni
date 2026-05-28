@@ -4,7 +4,7 @@ using YG;
 
 namespace EasyMobile.Internal
 {
-    using StoringSystem = YG2;
+    using StoringSystem = YandexGame;
     using System;
 
     /// <summary>
@@ -20,7 +20,7 @@ namespace EasyMobile.Internal
         /// </summary>
         public static void DeleteAll()
         {
-            SavesYG.DeleteAll();
+            StoringSystem.savesData.ResetSave();
         }
 
         /// <summary>
@@ -83,7 +83,7 @@ namespace EasyMobile.Internal
         /// </summary>
         public static void Save()
         {
-            YG2.SaveProgress();
+            StoringSystem.savesData.Save();
         }
 
         /// <summary>

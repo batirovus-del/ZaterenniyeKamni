@@ -44,8 +44,8 @@ PlayerSettings:
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-  defaultScreenWidthWeb: 9
-  defaultScreenHeightWeb: 16
+  defaultScreenWidthWeb: 540
+  defaultScreenHeightWeb: 960
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   m_SpriteBatchVertexThreshold: 300
@@ -476,6 +476,43 @@ PlayerSettings:
       m_Height: 1024
       m_Kind: 4
       m_SubKind: App Store
+  - m_BuildTarget: tvOS
+    m_Icons:
+    - m_Textures: []
+      m_Width: 1280
+      m_Height: 768
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 800
+      m_Height: 480
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 400
+      m_Height: 240
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 4640
+      m_Height: 1440
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 2320
+      m_Height: 720
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 3840
+      m_Height: 1440
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 1920
+      m_Height: 720
+      m_Kind: 1
+      m_SubKind: 
   m_BuildTargetBatching:
   - m_BuildTarget: WebGL
     m_StaticBatching: 1
@@ -779,7 +816,7 @@ PlayerSettings:
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
   webGLMemorySize: 256
-  webGLExceptionSupport: 0
+  webGLExceptionSupport: 2
   webGLNameFilesAsHashes: 0
   webGLShowDiagnostics: 0
   webGLDataCaching: 1
@@ -789,9 +826,9 @@ PlayerSettings:
   webGLTemplate: PROJECT:1.6_(FixedRatio)
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 2
+  webGLCompressionFormat: 0
   webGLWasmArithmeticExceptions: 0
-  webGLLinkerTarget: 0
+  webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   webGLInitialMemorySize: 256
@@ -802,23 +839,23 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 128
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: ENABLE_IAP;ADMOB_SDK;ENABLE_MEC;ENABLE_ANTI_CHEAT;EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    EmbeddedLinux: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro
+    Android: ENABLE_IAP;ADMOB_SDK;ENABLE_MEC;ENABLE_ANTI_CHEAT;EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;YandexGamesPlatform_yg;EM_UIAP
+    EmbeddedLinux: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;EM_UIAP
     GameCoreScarlett: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
-    GameCoreXboxOne: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro
-    LinuxHeadlessSimulation: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    Nintendo Switch: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    PS4: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    PS5: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    QNX: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro
-    Stadia: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro
-    Standalone: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro;YG_PLUGIN_YANDEX_GAME;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    VisionOS: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro
-    WebGL: EASY_MOBILE;EASY_MOBILE_PRO;YG_PLUGIN_YANDEX_GAME;EM_UIAP;TK2D;TextMeshPro;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    Windows Store Apps: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    XboxOne: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    iPhone: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
-    tvOS: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP;TK2D;TextMeshPro;YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg
+    GameCoreXboxOne: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;EM_UIAP
+    LinuxHeadlessSimulation: EASY_MOBILE;EASY_MOBILE_PRO;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;YandexGamesPlatform_yg;EM_UIAP
+    Nintendo Switch: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;YandexGamesPlatform_yg;EM_UIAP
+    PS4: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;YandexGamesPlatform_yg;EM_UIAP
+    PS5: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;YandexGamesPlatform_yg;EM_UIAP
+    QNX: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;EM_UIAP
+    Stadia: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;EM_UIAP
+    Standalone: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;YG_PLUGIN_YANDEX_GAME;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;NJSON_STORAGE_YG2;YandexGamesPlatform_yg;EM_UIAP
+    VisionOS: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;EM_UIAP
+    WebGL: EASY_MOBILE;EASY_MOBILE_PRO;YG_PLUGIN_YANDEX_GAME;TK2D;TextMeshPro;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;NJSON_STORAGE_YG2;YandexGamesPlatform_yg;EM_UIAP
+    Windows Store Apps: EASY_MOBILE;EASY_MOBILE_PRO;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;YandexGamesPlatform_yg;EM_UIAP
+    XboxOne: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;YandexGamesPlatform_yg;EM_UIAP
+    iPhone: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;YandexGamesPlatform_yg;EM_UIAP
+    tvOS: EASY_MOBILE;EASY_MOBILE_PRO;TK2D;TextMeshPro;PLUGIN_YG_2;TMP_YG2;InterstitialAdv_yg;RewardedAdv_yg;Authorization_yg;AutoTranslateLangs_yg;Leaderboards_yg;Localization_yg;Storage_yg;EnvirData_yg;Fullscreen_yg;OpenURL_yg;StickyAdv_yg;YandexGamesPlatform_yg;EM_UIAP
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -854,8 +891,8 @@ PlayerSettings:
     Standalone: 6
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: New folder
-  metroPackageVersion: 
+  metroPackageName: Newfolder
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -863,7 +900,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: New folder
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Jewels Quest
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

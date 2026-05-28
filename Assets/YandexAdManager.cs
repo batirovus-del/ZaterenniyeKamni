@@ -13,10 +13,11 @@ public class YandexAdManager : MonoBehaviour
 
     public void ShowRewardedAd()
     {
-        YG2.RewardedAdvShow("0");
+        YandexGame.RewVideoShow(0);
     }
 
     public void ShowInterstitial()
     {
+        YandexGame.FullscreenShow();
     }
 }

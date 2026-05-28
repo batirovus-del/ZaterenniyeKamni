@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using UnityEngine;
+using YG;
 
 public static class Localization
 {
@@ -7,9 +7,7 @@ public static class Localization
 
     public static void InitTranslations()
     {
-        string lang = GetLanguage();
-
-        if (lang == "en")
+        if (YandexGame.EnvironmentData.language == "en")
         {
             Translations = new()
             {
@@ -22,7 +20,7 @@ public static class Localization
                 { "CONTINUE", "CONTINUE" },
             };
         }
-        else if (lang == "tr")
+        else if (YandexGame.EnvironmentData.language == "tr")
         {
             Translations = new()
             {
@@ -47,20 +45,6 @@ public static class Localization
                 { "LOADING...", "ЗАГРУЗКА..." },
                 { "CONTINUE", "ПРОДОЛЖИТЬ" },
             };
-        }
-    }
-
-    private static string GetLanguage()
-    {
-        string lang = PlayerPrefs.GetString("lang_YG2", string.Empty);
-        if (!string.IsNullOrEmpty(lang))
-            return lang;
-
-        switch (Application.systemLanguage)
-        {
-            case SystemLanguage.English: return "en";
-            case SystemLanguage.Turkish: return "tr";
-            default: return "ru";
         }
     }
 }

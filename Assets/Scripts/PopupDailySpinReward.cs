@@ -128,7 +128,7 @@ public class PopupDailySpinReward : Popup
 			else
 			{
 				LeaderBoardManager.Instance.secondFortune = true;
-                YG2.RewardedAdvShow("0", spinByAd);
+                YandexGame.RewVideoShow(0, spinByAd);
 				return;
             }
 		}

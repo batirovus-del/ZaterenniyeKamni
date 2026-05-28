@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.Events;
-using YG;
 
 namespace YG.Example
 {
@@ -16,10 +15,14 @@ namespace YG.Example
 
         private void OnEnable()
         {
+            YandexGame.PurchaseSuccessEvent += SuccessPurchased;
+            YandexGame.PurchaseFailedEvent += FailedPurchased;
         }
 
         private void OnDisable()
         {
+            YandexGame.PurchaseSuccessEvent -= SuccessPurchased;
+            YandexGame.PurchaseFailedEvent -= FailedPurchased;
         }
 
         private void Awake()
@@ -41,7 +44,7 @@ namespace YG.Example
         public void ThreeCoins()
         {
             MonoSingleton<PlayerDataManager>.Instance.IncreaseCoin(3);
-            YG2.SaveProgress();
+            YandexGame.SaveProgress();
         }
 
         void SuccessPurchased(string id)
@@ -86,8 +89,8 @@ namespace YG.Example
                     break;
             }
 
-            YG2.SaveProgress();
-            // пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:
+            YandexGame.SaveProgress();
+            // Ваш код для обработки покупки. Например:
             //if (id == "50")
             //    YandexGame.savesData.money += 50;
             //else if (id == "250")

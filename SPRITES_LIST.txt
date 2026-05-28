@@ -1,0 +1,461 @@
+﻿=== СПИСОК ВСЕХ СПРАЙТОВ ИГРЫ ZateryannieKamni ===
+Дата: 09.05.2026
+Всего спрайтов: 362 файла
+Путь: C:\Users\bayra\Documents\Games\ZateryannieKamni\Assets\Sprites\
+
+=== UI ЭЛЕМЕНТЫ ===
+
+КНОПКИ:
+Basic_btn_spin.png
+Basic_btn_spin_2.png
+Btn_Locked.png
+Btn_Normal.png
+SR_IngameUI_Btn_Buy.png
+SR_IngameUI_Btn_Number.png
+SR_Lobby_Btn_TopBar.png
+SR_Lobby_SettingBtn_eff.png
+SR_Lobby_SettingBtn_normal.png
+SR_Lobby_SettingBtn_off.png
+SR_Lobby_SettingBtn_out.png
+SR_Lobby_SettingBtn_sound.png
+SR_Lobby_SettingBtn_title.png
+SR_PopupBg_btn.png
+
+=== ИКОНКИ ===
+bg_icon_coin01_light__02.png
+bg_icon_coin01_light__03.png
+bg_icon_coin01_light__04.png
+bg_icon_coin01_light__05.png
+bg_icon_coin01_light__06.png
+bg_icon_coin02_light__02.png
+bg_icon_coin02_light__03.png
+bg_icon_coin02_light__04.png
+bg_icon_coin02_light__05.png
+bg_icon_coin02_light__06.png
+Icon_Spin.png
+ingame_icon_gageStar.png
+ingame_icon_gageStarBG.png
+shop_icon.png
+SR_icon_arrow.png
+SR_icon_arrow_d1.png
+SR_Icon_Move.png
+SR_Icon_Move1.png
+SR_icon_plus.png
+SR_icon_star.png
+SR_icon_star_bg.png
+SR_icon_star_w.png
+SR_Icon_Video.png
+SR_icon_wifi01.png
+SR_icon_wifi_bg.png
+SR_Icon_Xbox.png
+SR_ShopIcon_BestValue.png
+SR_ShopIcon_Bonus.png
+SR_ShopIcon_coin1.png
+SR_ShopIcon_coin2.png
+SR_ShopIcon_coin3.png
+SR_ShopIcon_coin4.png
+SR_ShopIcon_coin5.png
+SR_ShopIcon_MostPopular.png
+
+=== ФОНЫ ===
+BG_3.png
+BG_3_1.png
+BG_3_2.png
+Bg_bottom.png
+BG_deco_1.png
+BG_deco_2.png
+bg_icon_coin01_light__02.png
+bg_icon_coin01_light__03.png
+bg_icon_coin01_light__04.png
+bg_icon_coin01_light__05.png
+bg_icon_coin01_light__06.png
+bg_icon_coin02_light__02.png
+bg_icon_coin02_light__03.png
+bg_icon_coin02_light__04.png
+bg_icon_coin02_light__05.png
+bg_icon_coin02_light__06.png
+bg_ingame_5moves.png
+bg_ingame_party.png
+bg_ingame_Shuffle.png
+bg_ingame_tile1_m.png
+bg_ingame_tile2_m.png
+Bg_top.png
+Booster_TimerBg.png
+Coinstore_tagBG.png
+coinstore_X2_topBG.png
+ingame_icon_gageStarBG.png
+ingame_UI_BG01.png
+ingame_UI_BG02.png
+Lobby_CoinStore_X2chance_BG.png
+Rewardup_bg.png
+SR_bg_SlideInfo_pattern_center.png
+SR_bg_SlideInfo_pattern_Left.png
+SR_bg_SlideInfo_pattern_Right.png
+SR_button_CoinBg.png
+SR_CoinStore_MoreBg.png
+SR_icon_star_bg.png
+SR_icon_wifi_bg.png
+SR_infoBg.png
+SR_IngameUI_BottomItemBg.png
+SR_IngameUI_bringdown_bg.png
+SR_IngameUI_SampleBg02.png
+SR_Lobby_TopBarBg.png
+SR_PopupBg.png
+SR_PopupBg_btn.png
+SR_PopupTitle_bg.png
+SR_ShopList_BestValue_Bg.png
+SR_ShopList_MostPopular_Bg.png
+SR_SildePopupBg.png
+SR_SildePopupBg01.png
+SR_SildePopupBg_pattern.png
+SR_SildePopup_InfoBg.png
+SR_StarterPack_LeftBg.png
+
+=== ИГРОВЫЕ ЭЛЕМЕНТЫ ===
+
+БЛОКИ (КАМНИ):
+block_b_pack.png
+block_g_pack.png
+block_o_pack.png
+block_p_pack.png
+block_rainbow.png
+block_r_pack.png
+block_y_pack.png
+sr_block_b_01.png
+sr_block_b_02.png
+sr_block_g_01.png
+sr_block_g_02.png
+sr_block_o_01.png
+sr_block_o_02.png
+sr_block_p_01.png
+sr_block_p_02.png
+sr_block_r_01.png
+sr_block_r_02.png
+sr_block_y_01.png
+sr_block_y_02.png
+
+ПРЕПЯТСТВИЯ:
+Obstacle_jam_highlight.png
+sr_obstacle_jam.png
+sr_obstacle_rockcandy_step_1.png
+sr_obstacle_rockcandy_step_2.png
+sr_obstacle_rockcandy_step_2_d1.png
+
+НАГРАДЫ:
+Rewardup_bar.png
+Rewardup_bg.png
+Reward_Candy.png
+Reward_Coin.png
+Reward_Hammer.png
+Reward_HBomb.png
+Reward_Move.png
+Reward_Shuffle.png
+Reward_VBomb.png
+
+=== ЭФФЕКТЫ И АНИМАЦИИ ===
+
+ЭФФЕКТЫ:3d_eff_15.png
+3d_Gretel_eff_12.png
+3d_Gretel_eff_13.png
+3d_Gretel_eff_14.png
+auraeff_part03_0.png
+bomb_ef01.png
+bomb_ef02.png
+bomb_ef03.png
+bomb_ef04.png
+bomb_ef05.png
+ef01.png
+ef01_lss.png
+ef02.png
+ef03.png
+ef04.png
+ef05.png
+ef06.png
+ef09.png
+ef11.png
+efff.png
+jelly_create_24.png
+refresh-50.png
+ScoreFont_B_0.png
+ScoreFont_B_1.png
+ScoreFont_B_2.png
+ScoreFont_B_3.png
+ScoreFont_B_4.png
+ScoreFont_B_5.png
+ScoreFont_B_6.png
+ScoreFont_B_7.png
+ScoreFont_B_8.png
+ScoreFont_B_9.png
+ScoreFont_G_0.png
+ScoreFont_G_1.png
+ScoreFont_G_2.png
+ScoreFont_G_3.png
+ScoreFont_G_4.png
+ScoreFont_G_5.png
+ScoreFont_G_6.png
+ScoreFont_G_7.png
+ScoreFont_G_8.png
+ScoreFont_G_9.png
+ScoreFont_O_0.png
+ScoreFont_O_1.png
+ScoreFont_O_2.png
+ScoreFont_O_3.png
+ScoreFont_O_4.png
+ScoreFont_O_5.png
+ScoreFont_O_6.png
+ScoreFont_O_7.png
+ScoreFont_O_8.png
+ScoreFont_O_9.png
+ScoreFont_P_0.png
+ScoreFont_P_1.png
+ScoreFont_P_2.png
+ScoreFont_P_3.png
+ScoreFont_P_4.png
+ScoreFont_P_5.png
+ScoreFont_P_6.png
+ScoreFont_P_7.png
+ScoreFont_P_8.png
+ScoreFont_P_9.png
+ScoreFont_R_0.png
+ScoreFont_R_1.png
+ScoreFont_R_2.png
+ScoreFont_R_3.png
+ScoreFont_R_4.png
+ScoreFont_R_5.png
+ScoreFont_R_6.png
+ScoreFont_R_7.png
+ScoreFont_R_8.png
+ScoreFont_R_9.png
+ScoreFont_Y_0.png
+ScoreFont_Y_1.png
+ScoreFont_Y_2.png
+ScoreFont_Y_3.png
+ScoreFont_Y_4.png
+ScoreFont_Y_5.png
+ScoreFont_Y_6.png
+ScoreFont_Y_7.png
+ScoreFont_Y_8.png
+ScoreFont_Y_9.png
+SR_bg_SlideInfo_pattern_Left.png
+SR_Lobby_SettingBtn_eff.png
+SR_PopupTitle_pattern_Left.png
+SR_ShopList_MostPopular_ef.png
+SR_StarterPack_LeftBg.png
+
+СВЕЧЕНИЯ:
+3d_Gretel_glow02.png
+3d_Gretel_glow05.png
+blue_glow_01.png
+green_glow_01.png
+orange_glow_01.png
+purple_glow_01.png
+rainbow_glow.png
+red_glow_01.png
+yellow_glow_01.png
+
+БОМБЫ И БУСТЕРЫ:
+bomb_ef01.png
+bomb_ef02.png
+bomb_ef03.png
+bomb_ef04.png
+bomb_ef05.png
+bomb_light.png
+candypack_bomb01.png
+candypack_bomb02.png
+candypack_bomb03.png
+candypack_bomb04.png
+candypack_bomb05.png
+Reward_HBomb.png
+Reward_VBomb.png
+SR_IngameUI_BottomItem03_HBomb.png
+SR_IngameUI_BottomItem04_VBomb.png
+
+=== ЦВЕТНЫЕ КАМНИ ===
+blue_normal.png
+Btn_Normal.png
+green_normal.png
+Levelball_Normal.png
+orange_normal.png
+purple_normal.png
+red_normal.png
+SR_Lobby_SettingBtn_normal.png
+yellow_normal.png
+
+=== ШРИФТЫ (ЦИФРЫ) ===
+ScoreFont_B_0.png
+ScoreFont_B_1.png
+ScoreFont_B_2.png
+ScoreFont_B_3.png
+ScoreFont_B_4.png
+ScoreFont_B_5.png
+ScoreFont_B_6.png
+ScoreFont_B_7.png
+ScoreFont_B_8.png
+ScoreFont_B_9.png
+ScoreFont_G_0.png
+ScoreFont_G_1.png
+ScoreFont_G_2.png
+ScoreFont_G_3.png
+ScoreFont_G_4.png
+ScoreFont_G_5.png
+ScoreFont_G_6.png
+ScoreFont_G_7.png
+ScoreFont_G_8.png
+ScoreFont_G_9.png
+ScoreFont_O_0.png
+ScoreFont_O_1.png
+ScoreFont_O_2.png
+ScoreFont_O_3.png
+ScoreFont_O_4.png
+ScoreFont_O_5.png
+ScoreFont_O_6.png
+ScoreFont_O_7.png
+ScoreFont_O_8.png
+ScoreFont_O_9.png
+ScoreFont_P_0.png
+ScoreFont_P_1.png
+ScoreFont_P_2.png
+ScoreFont_P_3.png
+ScoreFont_P_4.png
+ScoreFont_P_5.png
+ScoreFont_P_6.png
+ScoreFont_P_7.png
+ScoreFont_P_8.png
+ScoreFont_P_9.png
+ScoreFont_R_0.png
+ScoreFont_R_1.png
+ScoreFont_R_2.png
+ScoreFont_R_3.png
+ScoreFont_R_4.png
+ScoreFont_R_5.png
+ScoreFont_R_6.png
+ScoreFont_R_7.png
+ScoreFont_R_8.png
+ScoreFont_R_9.png
+ScoreFont_Y_0.png
+ScoreFont_Y_1.png
+ScoreFont_Y_2.png
+ScoreFont_Y_3.png
+ScoreFont_Y_4.png
+ScoreFont_Y_5.png
+ScoreFont_Y_6.png
+ScoreFont_Y_7.png
+ScoreFont_Y_8.png
+ScoreFont_Y_9.png
+
+=== УРОВНИ ===
+Levelball_Clear.png
+Levelball_Locked.png
+Levelball_Normal.png
+
+================================================================================
+=== ИНСТРУКЦИЯ ПО ЗАМЕНЕ СПРАЙТОВ ===
+================================================================================
+
+СПОСОБ 1: Через Unity Inspector (рекомендуется для отдельных элементов)
+------------------------------------------------------------------------
+1. Открой Unity проект ZateryannieKamni
+2. Открой сцену: Assets/Scenes/Lobby.unity или Game.unity
+3. В окне Hierarchy найди UI элемент (например, кнопку)
+4. Кликни на него
+5. В окне Inspector найди компонент "Image" или "SpriteRenderer"
+6. Найди поле "Source Image" (или "Sprite")
+7. Кликни на кружок справа от поля
+8. Выбери новый спрайт из списка
+9. Готово!
+
+СПОСОБ 2: Замена файла (для массовой замены)
+----------------------------------------------
+1. Найди оригинальный спрайт в папке:
+   C:\Users\bayra\Documents\Games\ZateryannieKamni\Assets\Sprites\
+   
+2. Запомни его ТОЧНОЕ имя (например: Btn_Normal.png)
+
+3. Подготовь новый спрайт:
+   - Сохрани с ТАКИМ ЖЕ ИМЕНЕМ
+   - Формат: PNG с прозрачностью
+   - Размер: примерно как у оригинала
+
+4. Удали старый файл из Unity (Delete в Project окне)
+
+5. Перетащи новый файл в ту же папку
+
+6. Unity автоматически обновит все ссылки!
+
+СПОСОБ 3: Программная замена (через код)
+-----------------------------------------
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ChangeSprite : MonoBehaviour
+{
+    public Image targetImage;
+    public Sprite newSprite;
+    
+    void Start()
+    {
+        targetImage.sprite = newSprite;
+    }
+}
+
+НАСТРОЙКА ИМПОРТА СПРАЙТА
+--------------------------
+После добавления нового спрайта:
+
+1. Выбери спрайт в Project окне
+2. В Inspector установи:
+   - Texture Type: Sprite (2D and UI)
+   - Sprite Mode: Single
+   - Pixels Per Unit: 100
+   - Filter Mode: Bilinear
+   - Compression: Normal Quality
+3. Нажми Apply
+
+ДЛЯ РАСТЯГИВАЕМЫХ КНОПОК (9-Slice)
+-----------------------------------
+1. Выбери спрайт кнопки
+2. Нажми кнопку "Sprite Editor"
+3. Настрой зеленые границы (отступы от краев)
+4. Нажми Apply
+5. В компоненте Image установи "Image Type: Sliced"
+
+ПОИСК ИСПОЛЬЗОВАНИЯ СПРАЙТА
+----------------------------
+Чтобы найти где используется спрайт:
+1. Правый клик на спрайт в Project
+2. Выбери "Find References In Scene"
+3. Unity покажет все объекты с этим спрайтом
+
+СОВЕТЫ
+------
+✓ Сохраняй размеры: новый спрайт должен быть примерно того же размера
+✓ Используй PNG с прозрачностью для UI
+✓ Разрешение для мобильных: 512x512 или 1024x1024
+✓ Делай бэкап перед массовой заменой!
+
+ОСНОВНЫЕ СПРАЙТЫ ДЛЯ ЗАМЕНЫ
+----------------------------
+Кнопки:
+  - Btn_Normal.png (основная кнопка)
+  - Btn_Locked.png (заблокированная)
+  - SR_IngameUI_Btn_Buy.png (кнопка покупки)
+
+Иконки:
+  - shop_icon.png (магазин)
+  - SR_icon_star.png (звезда)
+  - SR_icon_plus.png (плюс)
+
+Фоны:
+  - BG_3.png (главный фон)
+  - Bg_top.png (верхняя панель)
+  - Bg_bottom.png (нижняя панель)
+
+Камни (основные):
+  - blue_normal.png (синий)
+  - red_normal.png (красный)
+  - green_normal.png (зеленый)
+  - yellow_normal.png (желтый)
+  - orange_normal.png (оранжевый)
+  - purple_normal.png (фиолетовый)
+
+================================================================================

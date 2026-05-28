@@ -170,7 +170,7 @@ public class ItemsInGameStore : MonoBehaviour
     }
     public void RewardedAdItem()
 	{
-        YG2.RewardedAdvShow("0", rewarded);
+        YandexGame.RewVideoShow(0, rewarded);
         //rewarded();
     }
 

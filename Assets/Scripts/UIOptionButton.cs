@@ -13,9 +13,9 @@ public class UIOptionButton : MonoBehaviour
 
 	public void OnPressMainButton()
 	{
-        if (!YG2.nowAdsShow)
+        if (!YandexGame.nowAdsShow && YandexGame.timerShowAd >= YandexGame.Instance.infoYG.fullscreenAdInterval)
         {
-            YG2.InterstitialAdvShow();
+            YandexGame.FullscreenShow(null, onPressMainButton);
         }
         else
         {

@@ -161,7 +161,7 @@ public class AudioAssistant : MonoBehaviour
 	{
 		mute = !mute;
         SavesYG.SetInt("Mute", mute ? 1 : 0);
-        YG2.SaveProgress();
+		YandexGame.savesData.Save();
 		//PlayerPrefs.Save();
 		PlayMusic((!mute) ? currentTrack : string.Empty);
 	}

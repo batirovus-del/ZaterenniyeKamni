@@ -135,7 +135,7 @@ public class UIManager : MonoSingleton<UIManager>
 			RegisterLocalNotification();
 		}
 		PlayerDataManager.SetSessionEndDateTimeString();
-		YG2.SaveProgress();
+		YandexGame.savesData.Save();
 		//PlayerPrefs.Save();
 	}
 

@@ -308,7 +308,7 @@ public class PopupShopCoin : Popup, IAppEventPurchaseFunnel
 
 	public void Rewarded3Coins()
 	{
-        YG2.RewardedAdvShow("0", rewarded);
+        YandexGame.RewVideoShow(0, rewarded);
 		//rewarded();
     }
 

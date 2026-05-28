@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
+using YG;
 using UnityEngine.UI;
 using I2.Loc;
-using YG;
 
 public class AdTimerManager : MonoBehaviour
 {
@@ -18,13 +18,14 @@ public class AdTimerManager : MonoBehaviour
     private void Start()
     {
         DontDestroyOnLoad(gameObject);
+        //StartCoroutine(Timer());
     }
 
     public IEnumerator Timer()
     {
         yield return new WaitForSeconds(180f);
 
-        if (!YG2.nowAdsShow)
+        if (!YandexGame.nowAdsShow && YandexGame.timerShowAd >= YandexGame.Instance.infoYG.fullscreenAdInterval)
         {
             _timerPanel.SetActive(true);
             TimerTextChange(3);
@@ -34,13 +35,18 @@ public class AdTimerManager : MonoBehaviour
             TimerTextChange(1);
             yield return new WaitForSeconds(1f);
 
-            YG2.InterstitialAdvShow();
+            YandexGame.FullscreenShow(null, closeAd);
+        }
+        else
+        {
+            //StartCoroutine(Timer());
         }
     }
 
     private void closeAd()
     {
         _timerPanel.SetActive(false);
+        //StartCoroutine(Timer());
     }
 
     private void TimerTextChange(int sec)

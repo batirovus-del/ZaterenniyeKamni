@@ -57,7 +57,8 @@ public class SceneLobby : SceneClass
 
 	private void Start()
 	{
-        YG2.GameReadyAPI();
+        YandexGame.GameReadyAPI();
+        YandexGame.ConsumePurchases();
 
         //YandexAdManager.Instance.ShowInterstitial();
 

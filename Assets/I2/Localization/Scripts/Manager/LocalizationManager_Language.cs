@@ -4,6 +4,7 @@ using System.Text.RegularExpressions;
 using System.Linq;
 using System.Globalization;
 using System.Collections;
+using YG;
 
 namespace I2.Loc
 {
@@ -174,7 +175,7 @@ namespace I2.Loc
             string SysLanguage = GetCurrentDeviceLanguage();*/
             string lang;
 
-            if (Application.systemLanguage == SystemLanguage.Russian)
+            if (YandexGame.EnvironmentData.language == "ru")
                 lang = "Russian";
             else
                 lang = "English";
